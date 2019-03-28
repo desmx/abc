@@ -1,0 +1,24 @@
+{
+  "name": "desmx/abc",
+  "description": "Auto discover providers in laravel with custom package",
+  "authors": [
+    {
+      "name": "Sergey Gondrya",
+      "email": "desmx@gondrya.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Desmx\\Abc\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Desmx\\Abc\\AbcServiceProvider"
+      ]
+    }
+  }
+}
